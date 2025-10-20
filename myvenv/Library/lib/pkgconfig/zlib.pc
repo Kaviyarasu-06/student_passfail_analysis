@@ -1,0 +1,13 @@
+prefix=K:/naive bayes and random/myvenv/Library
+exec_prefix=K:/naive bayes and random/myvenv/Library
+libdir=K:/naive bayes and random/myvenv/Library/lib
+sharedlibdir=K:/naive bayes and random/myvenv/Library/lib
+includedir=K:/naive bayes and random/myvenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
